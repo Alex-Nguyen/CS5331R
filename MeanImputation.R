@@ -9,9 +9,8 @@ training_size <-0.7 # percent of data for training
 data_length <-nrow(original_data)
 missing_data <-original_data
 missing_data[sample(1:data_length,portion*data_length),'Sepal.Length'] <-NA
-missing_data <-knnImputation(missing_data)
 #impute missing data with mean
-# missing_data$Sepal.Length[is.na(missing_data$Sepal.Length)] <-mean(missing_data$Sepal.Length, na.rm = TRUE)
+missing_data$Sepal.Length[is.na(missing_data$Sepal.Length)] <-mean(missing_data$Sepal.Length, na.rm = TRUE)
 # #root mean square between imputed and true values
 rmse = sqrt(mean( (original_data$Sepal.Length - missing_data$Sepal.Length)^2, na.rm = TRUE) )
 print("RMSE")
