@@ -51,7 +51,10 @@ error <-simple_perceptron(train,label,epochs = 20, learning_rate = 0.01, test_da
 The accuracy of the model is:  100
 
 The final weight vector is:  -0.01 -0.012 -0.044 0.075
+```
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
+```
 Add data manually.!
 train <- data.frame(c(0,0,1,1),c(0,1,0,1))
 label <-c(0,0,0,1)
