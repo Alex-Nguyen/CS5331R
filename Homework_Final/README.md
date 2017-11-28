@@ -22,17 +22,14 @@ simple_percetron(train, label, epochs, learning_rate, test_data, test_label)
 
 If test data (test_data, test_label) is not provided. The function will return the weight vector and the graph of error learning rate. Otherwise, it will return additional confusion matrix and accuracy (percent)
 
-## Value
+## Return Value
 
-weight_vector	
-Final updated weight vector values after #epochs times
-graph of error rate	
-Error rate in each epoch is plotted
-accuracy	
-The accuracy of the trained model on the test data if provided
-confusion_matrix	
-The confusion matrix indicating prediction vs actual values if test data is provided
-##Author(s)
+* weight_vector: Final updated weight vector values after #epochs times
+* graph of error rate	:Error rate in each epoch is plotted
+* accuracy:The accuracy of the trained model on the test data if provided
+* confusion_matrix: The confusion matrix indicating prediction vs actual values if test data is provided
+
+## Author(s)
 
 Vinh T. Nguyen, Texas Tech University
 
