@@ -1,14 +1,14 @@
 Please follow the instructions below to run the function correctly
-#Simple Perceptron Algorithm
+# Simple Perceptron Algorithm
 
-##Description
+## Description
 
 The purpose of this function is to train a simple perceptron algorithm following the slide lecture by Instructor Dr. Abdul Serwadda
 
-##Usage
+## Usage
 
 simple_percetron(train, label, epochs, learning_rate, test_data, test_label)
-##Arguments
+## Arguments
 
 train	
 train is the data frame for training
@@ -26,7 +26,7 @@ Details
 
 If test data (test_data, test_label) is not provided. The function will return the weight vector and the graph of error learning rate. Otherwise, it will return additional confusion matrix and accuracy (percent)
 
-##Value
+## Value
 
 weight_vector	
 Final updated weight vector values after #epochs times
@@ -40,7 +40,7 @@ The confusion matrix indicating prediction vs actual values if test data is prov
 
 Vinh T. Nguyen, Texas Tech University
 
-##Examples
+## Examples
 
 
 dataset <-read.csv("dataset.csv")
