@@ -33,7 +33,7 @@ If test data (test_data, test_label) is not provided. The function will return t
 ## Examples
 
 ```
-dataset <-read.csv("dataset.csv")
+dataset <-read.csv("Data/dataset.csv")
 train <-dataset[1:70,1:3]
 label <-as.vector(dataset$label[1:70])
 test_data <-dataset[71:100,1:3]
