@@ -35,7 +35,7 @@ Vinh T. Nguyen, Texas Tech University
 
 ## Examples
 
-
+```
 dataset <-read.csv("dataset.csv")
 train <-dataset[1:70,1:3]
 label <-as.vector(dataset$label[1:70])
@@ -59,3 +59,4 @@ result <- simple_perceptron(train,label,epochs = 10, learning_rate = 0.4)
 
 The final weight vector is:  -0.8 0.8 0.4
 error in each epoch: [1] 1 3 3 2 1 0 0 0 0 0
+```
