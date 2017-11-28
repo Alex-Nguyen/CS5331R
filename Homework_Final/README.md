@@ -6,8 +6,9 @@ Please follow the instructions below to run the function correctly
 The purpose of this function is to train a simple perceptron algorithm following the slide lecture by Instructor Dr. Abdul Serwadda
 
 ## Usage
-
+```
 simple_percetron(train, label, epochs, learning_rate, test_data, test_label)
+```
 ## Arguments
 
 train	
