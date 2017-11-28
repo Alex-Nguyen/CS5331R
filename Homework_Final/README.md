@@ -52,7 +52,7 @@ The accuracy of the model is:  100
 
 The final weight vector is:  -0.01 -0.012 -0.044 0.075
 ```
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/Alex-Nguyen/CS5331R/blob/master/Homework_Final/Rplot1.png)
 
 ```
 Add data manually.!
