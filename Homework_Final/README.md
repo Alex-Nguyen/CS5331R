@@ -11,19 +11,14 @@ simple_percetron(train, label, epochs, learning_rate, test_data, test_label)
 ```
 ## Arguments
 
-train	
-train is the data frame for training
-label	
-label is the vector label for training
-epochs	
-epochs The number of iterations to scan the data frame. Default value is set to 10 if not specified
-learning_rate	
-learning_rate Learning rate of the algorithm. Default value is set to 0.01 if not specified
-test_data	
-test_data is the data frame for testing.
-test_label	
-test_label is the vector label for testing
-Details
+* train: train is the data frame for training
+* label: label is the vector label for training
+* epochs: The number of iterations to scan the data frame. Default value is set to 10 if not specified
+* learning_rate: Learning rate of the algorithm. Default value is set to 0.01 if not specified
+* test_data: is the data frame for testing.	
+* test_label: is the vector label for testing
+
+## Details
 
 If test data (test_data, test_label) is not provided. The function will return the weight vector and the graph of error learning rate. Otherwise, it will return additional confusion matrix and accuracy (percent)
 
