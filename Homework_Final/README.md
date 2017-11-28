@@ -29,9 +29,6 @@ If test data (test_data, test_label) is not provided. The function will return t
 * accuracy:The accuracy of the trained model on the test data if provided
 * confusion_matrix: The confusion matrix indicating prediction vs actual values if test data is provided
 
-## Author(s)
-
-Vinh T. Nguyen, Texas Tech University
 
 ## Examples
 
@@ -63,3 +60,9 @@ result <- simple_perceptron(train,label,epochs = 10, learning_rate = 0.4)
 The final weight vector is:  -0.8 0.8 0.4
 error in each epoch: [1] 1 3 3 2 1 0 0 0 0 0
 ```
+![alt text](https://github.com/Alex-Nguyen/CS5331R/blob/master/Homework_Final/Rplot2.png)
+
+## Author(s)
+
+Vinh T. Nguyen, Texas Tech University. 
+Email: vinh.nguyen[at]ttu.edu
